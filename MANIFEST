@@ -1,0 +1,8 @@
+Build.PL
+ChangeLog
+lib/Bundle/SCHWIGON.pm
+MANIFEST			This list of files
+META.yml
+README
+t/basic.t
+xt/pod.t

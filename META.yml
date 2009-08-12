@@ -1,0 +1,24 @@
+---
+name: Bundle-SCHWIGON
+version: 0.01
+author:
+  - 'Steffen Schwigon <ss5@renormalist.net>'
+abstract: A bundle to install all of SCHWIGON's favorite modules
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Module::Build: 0.28
+  Test::More: 0.17
+recommends:
+  Test::Pod: 1.20
+configure_requires:
+  Module::Build: 0.2701
+provides:
+  Bundle::SCHWIGON:
+    file: lib/Bundle/SCHWIGON.pm
+    version: 0.01
+generated_by: Module::Build version 0.3402
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
